@@ -20,7 +20,7 @@ class Song
   
   def self.genres
     genre.each do |genre|
-      @@genre << genre
+      @@genres.uniq
     end
   end
   
