@@ -19,15 +19,11 @@ class Song
   end
   
   def self.genres
-    genre.each do |genre|
-      @@genres.uniq
-    end
+    @@genres.uniq
   end
   
   def self.artists
-    artist.each do |artist|
-      @@artist << artist
-    end
+    @@artists.uniq
   end
   
   def self.genre_count
