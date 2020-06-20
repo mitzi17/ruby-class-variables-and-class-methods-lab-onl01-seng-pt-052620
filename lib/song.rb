@@ -25,6 +25,9 @@ class Song
   end
   
   def self.artists
+    artist.each do |artist|
+      @@artist << artist
+  end
     
   end
   
